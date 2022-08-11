@@ -5,16 +5,34 @@
         "languages": [
             "Kotlin"
         ],
-        "description": "long winded explanation with zero content..",
-        "websiteLink": "https://kreck-projekt.github.io"
+        "description": "This project contains a smartphone app that let's you control a Raspberry Pi with which you can use your electric dooropener from your phone",
+        "websiteLink": "https://github.com/NikomitK/DoorOpener"
     },
     {
         "id": 1,
-        "title": "WindowOpener",
+        "title": "MailReplierBot",
+        "languages": [
+            "Java"
+        ],
+        "description": "In the Time of online lessons, our maths teacher always sent us mails where we should reply with a certain text so he knows we are not ignoring him, so i made this programm that replies with a self written message to emails that contain a certain text from a specified person.",
+        "websiteLink": "https://github.com/NikomitK/MailReplierBot"
+    }
+    {
+        "id": 2,
+        "title": "Messenger",
         "languages": [
             "Java"
         ],
         "description": "short winded explanation with 100 content..",
-        "websiteLink": "https://kreck-projekt.github.io"
+        "websiteLink": "https://github.com/NikomitK/NikosMessenger"
+    }
+{
+        "id": 3,
+        "title": "HotKey Formatter",
+        "languages": [
+            "Java"
+        ],
+        "description": "I often write mocking texts and I was getting tired of spamming the shift key, so i decided to write a background programm that converts the copied text with the press of a hotkey.",
+        "websiteLink": "https://github.com/NikomitK/HotKeyFormatter"
     }
 ]
