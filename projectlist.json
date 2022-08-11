@@ -9,12 +9,12 @@
         "websiteLink": "https://kreck-projekt.github.io"
     },
     {
-        "id": 0,
-        "title": "DoorOpener",
+        "id": 1,
+        "title": "WindowOpener",
         "languages": [
-            "Kotlin"
+            "Java"
         ],
-        "description": "long winded explanation with zero content..",
+        "description": "short winded explanation with 100 content..",
         "websiteLink": "https://kreck-projekt.github.io"
     }
 ]
