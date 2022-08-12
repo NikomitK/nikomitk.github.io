@@ -5,7 +5,7 @@
         "languages": [
             "Kotlin"
         ],
-        "description": "This project contains a smartphone app that let's you control a Raspberry Pi with which you can use your electric dooropener from your phone",
+        "description": "Open your door with your smartphone!!",
         "websiteLink": "https://github.com/NikomitK/DoorOpener"
     },
     {
@@ -14,7 +14,7 @@
         "languages": [
             "Java"
         ],
-        "description": "In the Time of online lessons, our maths teacher always sent us mails where we should reply with a certain text so he knows we are not ignoring him, so i made this programm that replies with a self written message to emails that contain a certain text from a specified person.",
+        "description": "Very specialized automatic mail replies",
         "websiteLink": "https://github.com/NikomitK/MailReplierBot"
     },
     {
@@ -23,7 +23,7 @@
         "languages": [
             "Java"
         ],
-        "description": "This is a simple messaging application that I created just for fun. It is not secure and should not be used, I just wanted to see, if I could write a working messenger that doesn't look completly terrible. I'll probably come back to improve security etc. but I have to learn a lot until I can do that correctly. Contributions are welcome :D Below are some pictures of the GUI",
+        "description": "Just wanted to try a messenger for fun",
         "websiteLink": "https://github.com/NikomitK/NikosMessenger"
     },
     {
@@ -32,7 +32,7 @@
         "languages": [
             "Java"
         ],
-        "description": "I often write mocking texts and I was getting tired of spamming the shift key, so i decided to write a background programm that converts the copied text with the press of a hotkey.",
+        "description": "Convert text to MoCkInG text with a hotkey",
         "websiteLink": "https://github.com/NikomitK/HotKeyFormatter"
     }
 ]
