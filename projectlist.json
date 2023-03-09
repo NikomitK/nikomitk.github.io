@@ -34,5 +34,14 @@
         ],
         "description": "Convert text to MoCkInG text with a hotkey",
         "websiteLink": "https://github.com/NikomitK/HotKeyFormatter"
+    },
+    {
+        "id": 4,
+        "title": "Game of Life",
+        "languages": [
+            "C"
+        ],
+        "description": "Game of life for my university",
+        "websiteLink": "https://github.com/NikomitK/GameOfLife"
     }
 ]
