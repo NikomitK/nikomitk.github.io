@@ -1,6 +1,16 @@
 :host {
     width: 80%;
-    text-align: center;
+    height: fit-content;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 255, 255, 0.2);
+    border-radius: 25px;
+    justify-content: space-around;
+    gap: 2rem;
     color: white;
-    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 1.6rem;
 }

@@ -56,3 +56,7 @@ body {
 .bg-white {
     background-color: rgb(255, 255, 255) !important;
 }
+
+a {
+    color: #22e5fb;
+}

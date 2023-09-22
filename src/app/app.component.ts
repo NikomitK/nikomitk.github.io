@@ -15,6 +15,7 @@ import { loadSlim } from "tsparticles-slim";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'NikoMitK';
 
