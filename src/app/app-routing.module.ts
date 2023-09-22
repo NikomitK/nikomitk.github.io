@@ -5,7 +5,8 @@ import { AboutMeComponent } from './about/about-me/about-me.component';
 
 const routes: Routes = [
   { path: "", component: CardspaceComponent},
-  { path: "about", component: AboutMeComponent}
+  { path: "about", component: AboutMeComponent},
+  { path: "**", redirectTo: "", pathMatch: "full"}
 ];
 
 @NgModule({

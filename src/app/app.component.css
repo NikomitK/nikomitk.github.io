@@ -15,3 +15,7 @@ header h1{
     font-size: 4rem;
 }
 
+.rc-mt {
+    border-radius: 5rem;
+    margin-top: 1rem;
+}

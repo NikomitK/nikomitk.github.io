@@ -16,7 +16,7 @@ import { loadSlim } from "tsparticles-slim";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'nikomitk.github.io';
+  title = 'NikoMitK';
 
   id = "tsparticles";
 
@@ -107,15 +107,25 @@ export class AppComponent {
   }
 
 
-  links = [
-    "/",
-    "/about"
+  mapLinks = [
+    {
+      name: "Projects",
+      link: "/projects"
+    },
+    {
+      name: "About",
+      link: "/about"
+    },
+    {
+      name: "Contact",
+      link: "/contact"
+    }
   ]
 
-  activeLink = this.links[0];
+  activeLink = this.mapLinks[0];
 
-  navigateTo(link: string){
+  navigateTo(link: {name: string, link: string}){
     this.activeLink = link;
-    this.router.navigateByUrl(link);
+    this.router.navigateByUrl(link.link);
   }
 }

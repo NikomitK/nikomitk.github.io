@@ -9,11 +9,11 @@
   <header>
     <h1>NikoMitK</h1>
   </header>
-  <nav mat-tab-nav-bar [tabPanel]="tabPanel">
-    <a mat-tab-link *ngFor="let link of links"
+  <nav mat-tab-nav-bar [tabPanel]="tabPanel" class="rc-mt">
+    <a mat-tab-link *ngFor="let link of mapLinks"
        (click)="navigateTo(link)"
-       [active]="activeLink == link"> {{link}} </a>
-    <a mat-tab-link disabled>Disabled Link</a>
+       [active]="activeLink.name == link.name"
+       class="bg-white"> {{link.name}} </a>
   </nav>
   <mat-tab-nav-panel #tabPanel class="flex-column-center wh-100">
     <router-outlet></router-outlet>
