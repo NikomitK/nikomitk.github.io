@@ -1,0 +1,15 @@
+:host {
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}
+
+.my-story {
+    margin: auto;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-shadow: #22e5fb 0px 0 15px;
+    width: 80%;
+    line-height: 2.2rem;
+}

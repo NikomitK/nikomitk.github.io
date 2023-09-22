@@ -1,0 +1,37 @@
+.bg-white {
+    background-color: rgb(240, 255, 255, 0.9);
+    color: #4b4b4b;
+    transition: all 0.25s ease-in-out 0s;
+    width: 380px;
+}
+
+.bg-white:hover {
+    box-shadow: rgb(34, 229, 251) 0px 0px 6px 3px;
+}
+
+.font-grey {
+    color: #4b4b4b;
+}
+
+:host {
+    width: 80%;
+    height: 90%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: #22e5fb 0 0 10px;
+    margin-bottom: 0px;
+}
