@@ -1,7 +1,6 @@
 <h1>My Projects:</h1>
 <mat-card class="bg-white" *ngFor="let project of projects">
   <mat-card-header>
-    <mat-card-subtitle class="font-grey">{{ project.language }}</mat-card-subtitle>
     <mat-card-title>{{ project.name }}</mat-card-title>
     <mat-card-subtitle class="font-grey">{{ project.language }}</mat-card-subtitle>
   </mat-card-header>
@@ -11,9 +10,9 @@
     </p>
   </mat-card-content>
   <mat-card-actions>
-    <a mat-icon-button color="primary" [href]="project.html_url" aria-label="Example icon button with a home icon" target="_blank">
-      <mat-icon>code</mat-icon>
+    <a mat-stroked-button color="link" [href]="project.html_url" aria-label="Button that takes you to the GitHub repository of this project" matTooltip="View the GitHub repository of this project" target="_blank" style="margin-right: 1rem;">
+      GitHub
     </a>
-    <button mat-stroked-button>SHARE</button>
+    <button mat-stroked-button color="link" (click)="navigateTo(project.name)">Details</button>
   </mat-card-actions>
 </mat-card>

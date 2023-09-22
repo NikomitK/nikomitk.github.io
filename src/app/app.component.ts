@@ -20,8 +20,12 @@ export class AppComponent {
 
   id = "tsparticles";
 
-  constructor (private router: Router){
-
+  constructor(private router: Router) {
+    let path = localStorage.getItem('path');
+    if (path) {
+      localStorage.removeItem('path');
+      this.router.navigate([path]);
+    }
   }
 
   particlesOptions = {
@@ -120,7 +124,7 @@ export class AppComponent {
 
   activeLink = this.mapLinks[0];
 
-  navigateTo(link: {name: string, link: string}){
+  navigateTo(link: { name: string, link: string }) {
     this.activeLink = link;
     this.router.navigateByUrl(link.link);
   }

@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { Router } from '@angular/router';
 import { Project } from 'src/app/shared/project';
 import { ProjectserviceService } from 'src/app/shared/projectservice.service';
-import { MatIconRegistry } from '@angular/material/icon';
 
 @Component({
   selector: 'app-cardspace',
@@ -13,10 +12,7 @@ export class CardspaceComponent {
 
   projects: Project[] = [];
 
-  constructor(private projectservice: ProjectserviceService, iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
-
-    iconRegistry.addSvgIcon('github', sanitizer.bypassSecurityTrustResourceUrl('assets/img/github-mark.svg'));
-
+  constructor(private projectservice: ProjectserviceService, private router: Router) {
     projectservice.getProjectList().subscribe(links => {
       links.forEach(link => {
         projectservice.getSingleProject(link).subscribe(project => {
@@ -34,6 +30,11 @@ export class CardspaceComponent {
 
     });
 
+  }
+
+  
+  navigateTo(link: string) {
+    this.router.navigate(['projects/', link]);
   }
 
 }
