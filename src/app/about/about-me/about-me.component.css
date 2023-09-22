@@ -13,3 +13,13 @@
     width: 80%;
     line-height: 2.2rem;
 }
+
+@media screen and (max-width: 768px){
+    :host {
+        width: 100%;
+    }
+    .my-story {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+}
