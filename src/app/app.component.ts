@@ -69,7 +69,7 @@ export class AppComponent {
           default: OutMode.bounce,
         },
         random: true,
-        speed: 1,
+        speed: 3,
         straight: false,
       },
       number: {
@@ -114,4 +114,8 @@ export class AppComponent {
 
   activeLink = this.links[0];
 
+  navigateTo(link: string){
+    this.activeLink = link;
+    this.router.navigateByUrl(link);
+  }
 }

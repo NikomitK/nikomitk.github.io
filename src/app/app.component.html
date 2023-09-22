@@ -11,11 +11,11 @@
   </header>
   <nav mat-tab-nav-bar [tabPanel]="tabPanel">
     <a mat-tab-link *ngFor="let link of links"
-       (click)="activeLink = link"
+       (click)="navigateTo(link)"
        [active]="activeLink == link"> {{link}} </a>
     <a mat-tab-link disabled>Disabled Link</a>
   </nav>
-  <mat-tab-nav-panel #tabPanel>
+  <mat-tab-nav-panel #tabPanel class="flex-column-center wh-100">
     <router-outlet></router-outlet>
   </mat-tab-nav-panel>
 </div>
